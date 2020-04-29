@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.js": "/juli-app/static/js/main.f3edd295.chunk.js",
-    "main.js.map": "/juli-app/static/js/main.f3edd295.chunk.js.map",
-    "runtime-main.js": "/juli-app/static/js/runtime-main.2b653d28.js",
-    "runtime-main.js.map": "/juli-app/static/js/runtime-main.2b653d28.js.map",
-    "static/css/2.de424728.chunk.css": "/juli-app/static/css/2.de424728.chunk.css",
-    "static/js/2.891236bb.chunk.js": "/juli-app/static/js/2.891236bb.chunk.js",
-    "static/js/2.891236bb.chunk.js.map": "/juli-app/static/js/2.891236bb.chunk.js.map",
-    "index.html": "/juli-app/index.html",
-    "precache-manifest.c12ab1020420e422aa6f6e85d4bf9ff6.js": "/juli-app/precache-manifest.c12ab1020420e422aa6f6e85d4bf9ff6.js",
-    "service-worker.js": "/juli-app/service-worker.js",
-    "static/css/2.de424728.chunk.css.map": "/juli-app/static/css/2.de424728.chunk.css.map",
-    "static/js/2.891236bb.chunk.js.LICENSE.txt": "/juli-app/static/js/2.891236bb.chunk.js.LICENSE.txt",
-    "static/media/jib_logo_dark_600.png": "/juli-app/static/media/jib_logo_dark_600.43d74a9c.png",
-    "static/media/jib_logo_light_600.png": "/juli-app/static/media/jib_logo_light_600.db002360.png"
+    "main.js": "/jib-app/static/js/main.6fbdc094.chunk.js",
+    "main.js.map": "/jib-app/static/js/main.6fbdc094.chunk.js.map",
+    "runtime-main.js": "/jib-app/static/js/runtime-main.da15dbfc.js",
+    "runtime-main.js.map": "/jib-app/static/js/runtime-main.da15dbfc.js.map",
+    "static/css/2.de424728.chunk.css": "/jib-app/static/css/2.de424728.chunk.css",
+    "static/js/2.0a3643d0.chunk.js": "/jib-app/static/js/2.0a3643d0.chunk.js",
+    "static/js/2.0a3643d0.chunk.js.map": "/jib-app/static/js/2.0a3643d0.chunk.js.map",
+    "index.html": "/jib-app/index.html",
+    "precache-manifest.5d36cf7a23b19e1da6257e6936e9a12b.js": "/jib-app/precache-manifest.5d36cf7a23b19e1da6257e6936e9a12b.js",
+    "service-worker.js": "/jib-app/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/jib-app/static/css/2.de424728.chunk.css.map",
+    "static/js/2.0a3643d0.chunk.js.LICENSE.txt": "/jib-app/static/js/2.0a3643d0.chunk.js.LICENSE.txt",
+    "static/media/jib_logo_dark_600.png": "/jib-app/static/media/jib_logo_dark_600.43d74a9c.png",
+    "static/media/jib_logo_light_600.png": "/jib-app/static/media/jib_logo_light_600.db002360.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.2b653d28.js",
+    "static/js/runtime-main.da15dbfc.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.891236bb.chunk.js",
-    "static/js/main.f3edd295.chunk.js"
+    "static/js/2.0a3643d0.chunk.js",
+    "static/js/main.6fbdc094.chunk.js"
   ]
 }
