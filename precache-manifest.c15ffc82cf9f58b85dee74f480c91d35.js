@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0bd89a3eae56a9012e07b8fd465e634",
+    "revision": "fd451bf1c4ae8397f98f2be9f25b4dad",
     "url": "/jib-app/index.html"
   },
   {
-    "revision": "26347b1f559b75037058",
+    "revision": "d074a9f3ff34c8d9c3da",
     "url": "/jib-app/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "26347b1f559b75037058",
-    "url": "/jib-app/static/js/2.0a3643d0.chunk.js"
+    "revision": "d074a9f3ff34c8d9c3da",
+    "url": "/jib-app/static/js/2.ccdfd788.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/jib-app/static/js/2.0a3643d0.chunk.js.LICENSE.txt"
+    "url": "/jib-app/static/js/2.ccdfd788.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e2341baaf96e6f021e9c",
-    "url": "/jib-app/static/js/main.6fbdc094.chunk.js"
+    "revision": "b6160b9d0c5d0de61a75",
+    "url": "/jib-app/static/js/main.5c775deb.chunk.js"
   },
   {
     "revision": "c6a2ebc8421725a73898",
