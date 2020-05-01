@@ -2,20 +2,23 @@ import React from 'react';
 //import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-import Typing from 'react-typing-animation';
 
 import Wrapper from '../containers/Wrapper';
 import PrimaryButton from '../common/PrimaryButton';
+
+import Heading1 from '../common/Heading1';
+
+import CategoryBox from '../containers/CategoryBox';
 
 class StartPage extends React.Component {
     render(props){
       return (
       <div>
       <Wrapper width="boxed" >
-      <Typing speed={50} loop={false}><h1>Hello!<Typing.Delay ms={600} /> I am Julian,<Typing.Delay ms={600} /> webdeveloper and artist.</h1></Typing>
+      <Heading1>Hello!<br/>I am Julian, webdeveloper and artist.</Heading1>
       </Wrapper>
       <Wrapper width="fullWidth">
-      dawda
+      <CategoryBox>1, 2, 3</CategoryBox>
       </Wrapper>
       <Wrapper width="boxed" >
       <Link to ={{

@@ -21,7 +21,8 @@ import Body from './components/containers/Body';
 
 import StartPage from './components/pages/StartPage';
 import AboutPage from './components/pages/AboutPage';
-import GalleryImgView from './components/pages/GalleryImgView';
+import GalleryPage from './components/pages/GalleryPage';
+import GalleryImgViewPage from './components/pages/GalleryImgViewPage';
 import ErrorPage from './components/pages/ErrorPage';
 
 class App extends Component {
@@ -92,6 +93,16 @@ class App extends Component {
               }} >About</Link>
                </NavLinkTheme>
              </NavItem>
+            <NavItem className="d-flex align-items-center">
+              <NavLinkTheme>
+              <Link to ={{
+               pathname: "/gallery",
+               state: {
+                   theme: this.state.theme
+               }
+             }} >Gallery</Link>
+              </NavLinkTheme>
+            </NavItem>
              <NavItem className="d-flex align-items-center">
                <NavLinkTheme>
                <Link to ={{
@@ -116,27 +127,11 @@ class App extends Component {
       <Switch history={history} >
           <Route path="/" render={ props => (<StartPage onClick={this.handleToggleTheme}/>) } exact />
           <Route path="/about" render={ props => (<AboutPage onClick={this.handleToggleTheme}/>) }/>
-          <Route path="/img/:img" component={GalleryImgView} />
+          <Route path="/gallery" render={ props => (<GalleryPage onClick={this.handleToggleTheme}/>) }/>
+          <Route path="/img/:img" component={GalleryImgViewPage} />
           <Route component={ErrorPage} />
       </Switch>
       </Body>
-      <div>
-      <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
-       <div className="form-group">
-           <label htmlFor="name">Name</label>
-           <input type="text" className="form-control" value={this.state.name} onChange={this.onNameChange.bind(this)} />
-       </div>
-       <div className="form-group">
-           <label htmlFor="exampleInputEmail1">Email address</label>
-           <input type="email" className="form-control" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
-       </div>
-       <div className="form-group">
-           <label htmlFor="message">Message</label>
-           <textarea className="form-control" rows="5" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
-       </div>
-       <button type="submit" className="btn btn-primary">Submit</button>
-       </form>
-      </div>
       <GlobalStyle />
     </ThemeProvider>
     </div>
